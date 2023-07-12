@@ -1,0 +1,10 @@
+.timer-container{
+    flex: 4;
+    background-color: #528fb8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timer-item{
+    margin: 20px;
+}

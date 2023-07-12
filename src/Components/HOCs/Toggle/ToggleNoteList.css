@@ -1,0 +1,8 @@
+.toggle-container{
+    flex: 4;
+    text-align: center;
+    background-color: #528fb8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

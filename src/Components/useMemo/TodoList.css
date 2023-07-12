@@ -1,0 +1,15 @@
+.todo-container{
+    flex: 4;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    background-color: #528fb8;
+}
+.todoInput{
+    color: red;
+    margin: 50px;
+}
+.todoShow{
+    margin: 50px;
+}
