@@ -10,6 +10,7 @@ import QuestionApp from "./Components/HOCs/QuestionEX/QuestionApp";
 import Quiz from './Components/Quiz/Quiz'
 import TodoListApp from './Components/TodoListApp/TodoListApp'
 import BookList from './Components/BookList/BookListApp'
+import Ticket from './Components/TicketApp/Ticket'
 
 let routes = [
     {path: '/counter', element: <Counter />},
@@ -24,6 +25,7 @@ let routes = [
     {path: "/quiz", element: <Quiz/>},
     {path: "/todoListApp", element: <TodoListApp/>},
     {path: "/booklist", element: <BookList/>},
+    {path: "/ticket", element: <Ticket/>},
 
 ]
 

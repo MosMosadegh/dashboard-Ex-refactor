@@ -5,7 +5,8 @@ const sideBarData = [
         infos: [
             {id: 1, title: 'Quiz App', to: '/quiz', icon:'LineStyleIcon'},
             {id: 2, title: 'Todo List', to: '/todoListApp', icon:'LineStyleIcon'},
-            {id: 2, title: 'Book List', to: '/booklist', icon:'LineStyleIcon'},
+            {id: 3, title: 'Book List', to: '/booklist', icon:'LineStyleIcon'},
+            {id: 4, title: 'Ticket', to: '/ticket', icon:'LineStyleIcon'},
             
         ]
     },
