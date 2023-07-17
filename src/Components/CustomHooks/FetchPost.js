@@ -9,12 +9,12 @@ const {post, isPending, error} = useFetch('https://jsonplaceholder.typicode.com/
 
   return (
     <div className='fetchContainer'>
-       <p className='text-primary text-center py-4 fs-2'>I have created a custom hook named "useFetch" which fetch from API. </p>
+       <p className='text-primary text-center p-4 fs-2'>I have created a custom hook named "useFetch" which fetch from API. </p>
         {error && <div>{error}</div>}
         {isPending && <div>Loading... :))</div>}
         {post && post.map(
             post=>(
-                <div key={post.id}>
+                <div key={post.id} className='px-4'>
                 <h2>{post.id} - {post.title}</h2>
                 <hr />
                 </div>

@@ -105,14 +105,14 @@ p {
 
 }
 .main {
-  width: 85%;
+  width: 97%;
   /* using flex because of better browser support */
    display: flex;
   justify-content: center;
   align-items: center; 
 }
 
-.container{
+.containerQuestion{
   display: flex;
   /* width: 100vw; */
   margin: 5rem auto;

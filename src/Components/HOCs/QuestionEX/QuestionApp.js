@@ -13,9 +13,9 @@ function QuestionApp() {
           using High Order Component (HOC){" "}
         </h3>
         <main className="main">
-          <div className="container">
-            <h3>questions and answers about login</h3>
-            <section className="info">
+          <div className="containerQuestion row">
+            <h3 className="col-3">questions and answers about login</h3>
+            <section className="col-8 info">
               {infos.map((info) => (
                 <Question key={info.id} {...info} />
               ))}

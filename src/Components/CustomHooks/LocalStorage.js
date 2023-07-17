@@ -8,7 +8,7 @@ export default function LocalStorage() {
 
   return (
     <div className='d-flex flex-column justify-content-center align-items-center local-container'>
-       <p className='text-primary text-center py-4 fs-2'>I have created a custom hook named "useLocalStorage" which Save the data to LocalStorage. </p>
+       <p className='text-primary text-center p-4 fs-2'>I have created a custom hook named "useLocalStorage" which Save the data to LocalStorage. </p>
         <input 
         type="text" 
         value={value}

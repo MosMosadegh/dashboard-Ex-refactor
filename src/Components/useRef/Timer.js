@@ -33,7 +33,7 @@ function Timer() {
 
   return (
     <div className='d-felx flex-column timer-container m-4'>
-      <h3 className='text-warning text-center py-4'>create a timer with useRef Hook </h3>
+      <p className='text-warning text-center p-4 fs-2'>Create a timer with useRef Hook </p>
       <div className='timer-item'>
       <h2>Timer: {time}s</h2>
       <button className='btn btn-success ' onClick={startTimer}>Start</button>

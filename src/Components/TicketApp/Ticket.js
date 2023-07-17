@@ -27,7 +27,7 @@ export default class Ticket extends React.Component {
 
   render() {
     return (
-      <div className="container-fluid body vh-100 ">
+      <div className="container-fluid bodyTicket vh-100 ">
         <div className="row v-50 pt-5">
           <div className="col-md-6 box">
             <input className="fnameInput" placeholder="First Name" />
@@ -68,7 +68,7 @@ export default class Ticket extends React.Component {
             </select>
           </div>
           <div className="col-md-12 box">
-            <button className="btn">Book a ticket</button>
+            <button className="btnTicket">Book a ticket</button>
           </div>
         </div>
       </div>

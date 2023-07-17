@@ -1,4 +1,4 @@
-.body {
+.bodyTicket {
   background-image: url("sky.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,7 +15,7 @@
   border: 0px;
   padding: 0px 10px;
 }
-.btn {
+.btnTicket {
   height: 30px;
   border-radius: 5px;
   border: 0px;
@@ -28,10 +28,10 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.container {
+/* .containerTicket {
   margin-top: 100px;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
-}
+} */
