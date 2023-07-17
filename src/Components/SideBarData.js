@@ -1,5 +1,15 @@
 const sideBarData = [
     {
+        id: 6,
+        title: 'Exercise',
+        infos: [
+            {id: 1, title: 'Quiz App', to: '/quiz', icon:'LineStyleIcon'},
+            {id: 2, title: 'Todo List', to: '/todoListApp', icon:'LineStyleIcon'},
+            {id: 2, title: 'Book List', to: '/booklist', icon:'LineStyleIcon'},
+            
+        ]
+    },
+    {
         id: 1,
         title: 'Custom Hooks',
         infos: [
@@ -38,14 +48,7 @@ const sideBarData = [
             {id: 2, title: 'Question', to: '/question', icon:'LineStyleIcon'},
         ]
     },
-    {
-        id: 6,
-        title: 'Exercise',
-        infos: [
-            {id: 1, title: 'Quiz App', to: '/quiz', icon:'LineStyleIcon'},
-            
-        ]
-    },
+    
 ]
 
 export default sideBarData

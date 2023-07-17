@@ -17,11 +17,11 @@ export default function LoginForm() {
   }
 
   return (
-    <div className='d-felx flex-column bodyLogin'>
-  <h3 className='text-primary text-center py-4'>I have created a custom hook named "useInput" which mange the value to input box </h3>
+    <div className='d-flex flex-column bodyLogin'>
+  <p className='text-primary text-center p-5 fs-2'>I have created a custom hook named "useInput" which mange the value to input box </p>
     <div className="login-page">
       <div className="form">
-        <form className="login-form" onSubmit={submitHandler}>
+        <form className="login-form d-flex flex-column" onSubmit={submitHandler}>
           <input type="text"
             {...usernameBinding}
             placeholder="Username" />

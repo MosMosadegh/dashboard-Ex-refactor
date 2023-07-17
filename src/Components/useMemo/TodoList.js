@@ -18,7 +18,7 @@ export default function TodoList() {
 
   return (
     <div className=" todo-container">
-      <h3 className='text-warning text-center py-4'>I have used the useMemo hook to improve the performance of the project and it filters words that contain the word "js". </h3>
+      <p className='text-warning text-center py-4 fs-2'>I have used the useMemo hook to improve the performance of the project and it filters words that contain the word "js". </p>
       <div className="todoInput">
         <input
           type="text"

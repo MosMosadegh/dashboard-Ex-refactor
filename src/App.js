@@ -12,7 +12,7 @@ function App() {
     <div className="container-fluid">
       <div className='row'>
       <div className='col-sm-3 col-md-2'><SideBar/></div>
-      <div className='col-sm-9 col-md-10'>{router}</div>
+      <div className='col-sm-9 col-md-10 vh-100 overflow-scroll'>{router}</div>
       </div>
     </div>
   );

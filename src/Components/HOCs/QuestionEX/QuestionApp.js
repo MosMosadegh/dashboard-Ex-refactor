@@ -8,7 +8,7 @@ function QuestionApp() {
 
   return (
     <div className="container-fluid d-flex justify-content-center align-items-center question-body">
-      <div className="d-flex flex-column align-items-center vh-100 overflow-scroll">
+      <div className="d-flex flex-column align-items-center">
         <h3 className="text-warning text-center mt-4">
           using High Order Component (HOC){" "}
         </h3>

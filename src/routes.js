@@ -8,6 +8,8 @@ import TodoList from "./Components/useMemo/TodoList";
 import Timer from "./Components/useRef/Timer";
 import QuestionApp from "./Components/HOCs/QuestionEX/QuestionApp";
 import Quiz from './Components/Quiz/Quiz'
+import TodoListApp from './Components/TodoListApp/TodoListApp'
+import BookList from './Components/BookList/BookListApp'
 
 let routes = [
     {path: '/counter', element: <Counter />},
@@ -20,6 +22,8 @@ let routes = [
     {path: "/toggle", element: <ToggleNoteList />},
     {path: "/question", element: <QuestionApp />},
     {path: "/quiz", element: <Quiz/>},
+    {path: "/todoListApp", element: <TodoListApp/>},
+    {path: "/booklist", element: <BookList/>},
 
 ]
 

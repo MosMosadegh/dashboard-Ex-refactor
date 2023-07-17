@@ -5,11 +5,13 @@ export default function Counter() {
   const [count, addCount, minusCount] = useCounter(0);
   return (
     <div className="d-felx flex-column counter-body">
-      <h3 className='text-primary text-center py-4'>I have created a custom hook named "useCounter" which counts the number. </h3>
+      <p className='text-primary text-center py-4 fs-2'>I have created a custom hook named "useCounter" which counts the number. </p>
       <div className="counter-show">
-        <p className="text-danger">{count}</p>
-        <button onClick={addCount}>Add</button>
-        <button onClick={minusCount}>Minus</button>
+        <p className="text-danger text-center">{count}</p>
+       
+        <button className="m-3 p-2" onClick={addCount}>Add</button>
+        <button className="m-3 p-2" onClick={minusCount}>Minus</button>
+        
       </div>
     </div>
   );
