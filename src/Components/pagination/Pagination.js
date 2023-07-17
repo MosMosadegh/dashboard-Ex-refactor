@@ -27,10 +27,10 @@ export default function Pagination() {
   };
 
   return (
-    <div className="pagination-container">
+    <div className="pagination-container vh-100 overflow-auto">
       {error && <div>{error}</div>}
       {isPending && <div>Loading... :))</div>}
-      <table className="table">
+      <table className="table ">
         <thead>
           <tr>
             <th>ID</th>

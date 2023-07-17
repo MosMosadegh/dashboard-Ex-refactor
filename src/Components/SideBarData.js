@@ -38,6 +38,14 @@ const sideBarData = [
             {id: 2, title: 'Question', to: '/question', icon:'LineStyleIcon'},
         ]
     },
+    {
+        id: 6,
+        title: 'Exercise',
+        infos: [
+            {id: 1, title: 'Quiz App', to: '/quiz', icon:'LineStyleIcon'},
+            
+        ]
+    },
 ]
 
 export default sideBarData

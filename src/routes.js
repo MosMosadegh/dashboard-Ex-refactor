@@ -7,6 +7,7 @@ import Pagination from "./Components/pagination/Pagination";
 import TodoList from "./Components/useMemo/TodoList";
 import Timer from "./Components/useRef/Timer";
 import QuestionApp from "./Components/HOCs/QuestionEX/QuestionApp";
+import Quiz from './Components/Quiz/Quiz'
 
 let routes = [
     {path: '/counter', element: <Counter />},
@@ -18,6 +19,7 @@ let routes = [
     {path: "/pagination", element: <Pagination />},
     {path: "/toggle", element: <ToggleNoteList />},
     {path: "/question", element: <QuestionApp />},
+    {path: "/quiz", element: <Quiz/>},
 
 ]
 

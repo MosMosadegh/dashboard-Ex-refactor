@@ -97,29 +97,24 @@ p {
   }
 }
 
-
-
 .question-body{
-  flex: 4;
-  background: #4b145b;
+  background: #4b145b; 
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 .main {
   width: 85%;
   /* using flex because of better browser support */
-  /* display: flex;
+   display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center; 
 }
 
 .container{
   display: flex;
-  width: 100vw;
+  /* width: 100vw; */
   margin: 5rem auto;
   background: var(--clr-white);
   border-radius: var(--radius);
